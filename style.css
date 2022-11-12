@@ -1,0 +1,33 @@
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: palegreen;
+}
+
+.duelrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.player{
+    padding: 0 2rem;
+}
+
+.ig{
+    width: 100%;
+}
+
+.igh{
+    height: 50px;
+    width: 50px;
+}
+@media only screen and (max-width:960px){
+    .duelrow{
+    flex-direction: column;
+    }
+}
